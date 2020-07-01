@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BOOK LIBRARY</title>
+    <meta name="author" content="Akash Yadav">
+    <meta name="about" content="A simple library front-end web application that can be use to create storage for books and information 
+    regarding it">
+    <meta name="viewport" content="width=device-width, initial-scale = 1.0">
+    <link href="style.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Mansalva&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Courgette&display=swap" rel="stylesheet">
+    <!-- <meta name="viewport" content="width=device-width, initial-scale=1.0"/> -->
+</head>
+<body>
+    <h1 class="heading">BOOKS CATALOGUE</h1>
+    <p class="credits">-By OneBitBoi</p>
+    <div class="container">
+        <div class="add_book_form_container">
+            <h3>ADD A BOOK TO LIBRARY</h3>
+            <p>BOOK TITLE</p>
+            <input type="text" class="book_title">
+            <p>AUTHOR'S NAME</p>
+            <input type="text" class="author_name">
+            <p>NUMBER OF PAGES</p>
+            <input type="text" class="number_of_pages">
+            <p>STATUS</p>
+            <input type="text" class="status" placeholder="COMPLETED / NOT COMPLETED">
+            <div><button class="add_book">ADD BOOK</button></div>
+        </div>
+        <div class="display_books_container">
+            <div class="book">
+               <div class="book_heading">
+                   <p>TITLE : </p>
+                   <p>AUTHOR : </p>
+                   <p>PAGES  : </p>
+                   <p>STATUS : </p>
+               </div>
+               <div class="book_content">
+                   <p>KAFKA ON THE SHORE</p>
+                   <p>HARUKI MURAKAMI</p>
+                   <p>569 PAGES</p>
+                   <p>COMPLETED</p>
+               </div>
+            <div class="remove_book_container"> <button class = "remove_book">Remove</button>
+                </div>
+            </div>
+            
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
